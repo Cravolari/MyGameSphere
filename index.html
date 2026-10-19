@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MyGameSphere: um espaço dedicado aos jogos, às histórias e às memórias que eles criam."
+    />
+    <link rel="icon" href="images/logo.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MyGameSphere</title>
+  </head>
+
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Logo da MyGameSphere" />
+        <span>MyGameSphere</span>
+      </a>
+
+      <nav aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="Paginas/sobre.html">Sobre</a></li>
+          <li><a href="Paginas/jogos.html">Jogos</a></li>
+          <li><a href="Paginas/favoritos.html">Favoritos</a></li>
+          <li><a href="Paginas/Contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+      <section class="apresentacao">
+        <h1>MyGameSphere</h1>
+        <p>
+          A história de muitos é marcada pelos jogos: risadas no meio da noite,
+          conversas profundas e amigos que moram longe e se juntam apenas
+          online. Momentos que serão lembrados para sempre e ficam marcados na
+          alma.
+        </p>
+      </section>
+
+      <section class="jogos-destaque">
+        <h2>Jogos em destaque</h2>
+        <div class="carrossel">
+          <article class="jogo" id="jogo1">
+            <div class="midia-jogo">
+              <img
+                src="images/counter-strike-2.jpg"
+                alt="Capa de Counter-Strike 2"
+              />
+            </div>
+            <div class="informacoes-jogo">
+              <h3>Counter-Strike 2</h3>
+              <a href="Paginas/jogo-counter-strike-2.html" class="botao"
+                >Ver detalhes</a
+              >
+            </div>
+            <a href="#jogo3" class="seta anterior" aria-label="Jogo anterior"
+              >&#10094;</a
+            >
+            <a href="#jogo2" class="seta proxima" aria-label="Próximo jogo"
+              >&#10095;</a
+            >
+          </article>
+
+          <article class="jogo" id="jogo2">
+            <div class="midia-jogo">
+              <img src="https://cdn.wccftech.com/wp-content/uploads/2021/06/ER_KEY-ART-scaled.jpg" alt="Capa de Elden Ring" />
+              <video muted loop playsinline>
+                <source src="Videos/jogo2.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="informacoes-jogo">
+              <h3>Elden Ring</h3>
+              <a href="Paginas/jogo-elden-ring.html" class="botao"
+                >Ver detalhes</a
+              >
+            </div>
+            <a href="#jogo1" class="seta anterior" aria-label="Jogo anterior"
+              >&#10094;</a
+            >
+            <a href="#jogo3" class="seta proxima" aria-label="Próximo jogo"
+              >&#10095;</a
+            >
+          </article>
+
+          <article class="jogo" id="jogo3">
+            <div class="midia-jogo">
+              <img
+                src="images/warthunder.jpg"
+                alt="Capa de warthunder"
+              />
+            </div>
+            <div class="informacoes-jogo">
+              <h3>warthunder</h3>
+              <a href="Paginas/jogo-warthuder.html" class="botao"
+                >Ver detalhes</a
+              >
+            </div>
+            <a href="#jogo2" class="seta anterior" aria-label="Jogo anterior"
+              >&#10094;</a
+            >
+            <a href="#jogo1" class="seta proxima" aria-label="Próximo jogo"
+              >&#10095;</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section class="sobre-site">
+        <h2>Conheça o site</h2>
+        <ul class="cards">
+          <li>
+            <h3><a href="Paginas/sobre.html">Sobre</a></h3>
+            <p>Entenda o objetivo do projeto e como ele nasceu.</p>
+          </li>
+          <li>
+            <h3><a href="Paginas/jogos.html">Jogos</a></h3>
+            <p>
+              Uma lista com 20 jogos populares na Steam e a página de cada um.
+            </p>
+          </li>
+          <li>
+            <h3><a href="Paginas/favoritos.html">Favoritos</a></h3>
+            <p>Os três jogos que mais marcaram minha história.</p>
+          </li>
+          <li>
+            <h3><a href="Paginas/Contato.html">Contato</a></h3>
+            <p>Fale comigo e me encontre nas redes.</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <p>&copy; 2026 MyGameSphere. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
